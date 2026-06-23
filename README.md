@@ -48,7 +48,7 @@ Para confirmar nuestras sospsechas de que el archivo fue modificado a proposito,
 
 Vamos a crear una copia del archivo que se llamará "hola.0x41haz":
 ```bash
-xxd -l 64 hola.0x41haz
+cp hola. 0x41haz hola_fix
 ```
 y después, con python, cambiaremos el byte 6 de 01 a 02:
 ```bash
